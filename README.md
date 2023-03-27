@@ -33,7 +33,7 @@
 - [x] 仿MacOS的代码风格及拷贝代码, [下载](https://ietheme.com/portfolio/iebase-code-block.html)
 - [x] 丰富的广告位
 - [x] 丰富的小工具
-- [x] 更多特性请前往演示地址体验：[演示提示](https://ietheme.com/)
+- [x] 更多特性请前往演示地址体验：[演示](https://ietheme.com/)
 
 ### 免费扩展
 
