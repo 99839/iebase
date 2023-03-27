@@ -1,0 +1,2043 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Iebase\n"
+"POT-Creation-Date: 2023-01-15 12:06+0800\n"
+"PO-Revision-Date: 2023-01-15 12:06+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "哎呀！该页面无法找到。"
+
+#: author.php:38
+msgid "No posts by this author."
+msgstr "没有该作者的文章。"
+
+#: comments.php:33
+msgctxt "Show comments title."
+msgid "Show Comments"
+msgstr "显示评论"
+
+#: comments.php:40
+msgctxt "Show comments title."
+msgid "Leave a Comment"
+msgstr "发表评论"
+
+#: comments.php:53 inc/class-widgets.php:408
+msgid "One Comment"
+msgstr "1 评论"
+
+#: comments.php:57
+#, php-format
+msgctxt "Comments title"
+msgid "%1$s Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] "%1$s 评论"
+
+#: comments.php:84
+msgid "Comments are closed."
+msgstr "评论已关闭。"
+
+#: comments.php:91
+msgid "Write A Comment"
+msgstr "撰写评论"
+
+#: footer.php:132
+msgid "Y"
+msgstr "Y"
+
+#: functions.php:70
+msgid "Primary Menu"
+msgstr "主要菜单"
+
+#: functions.php:71
+msgid "Social Menu"
+msgstr "社交菜单"
+
+#: functions.php:72
+msgid "Blog Menu"
+msgstr "博客菜单"
+
+#: functions.php:197
+msgid "Anonymous"
+msgstr "匿名"
+
+#: functions.php:210
+msgid "Reply to"
+msgstr "回复给"
+
+#: functions.php:222
+msgid "Comment"
+msgstr "评论"
+
+#: functions.php:240
+msgid "Name"
+msgstr "姓名"
+
+#: functions.php:243
+msgid "Email"
+msgstr "邮箱"
+
+#: functions.php:246
+msgid "Website"
+msgstr "网站"
+
+#: functions.php:289 inc/class-template.php:340
+msgid "You Might Be Interested In"
+msgstr "您可能感兴趣的"
+
+#: functions.php:325
+msgid "Post Sidebar"
+msgstr "文章侧边栏"
+
+#: functions.php:327
+msgid "Add widgets here to appear in single post page sidebar."
+msgstr "添加的小工具将出现在文章页面的侧边栏。"
+
+#: functions.php:335
+msgid "Footer First"
+msgstr "第一页脚"
+
+#: functions.php:337
+msgid "Add widgets here to appear in site Footer First column."
+msgstr "添加的小工具将出现在页脚第一列中。"
+
+#: functions.php:345
+msgid "Footer Second"
+msgstr "第二页脚"
+
+#: functions.php:347
+msgid "Add widgets here to appear in site Footer Second column."
+msgstr "添加的小工具将出现在页脚第二列中。"
+
+#: functions.php:355
+msgid "Footer Third"
+msgstr "第三页脚"
+
+#: functions.php:357
+msgid "Add widgets here to appear in site Footer Third column."
+msgstr "添加的小工具将出现在页脚第三列中。"
+
+#: functions.php:365
+msgid "Footer Fourth"
+msgstr "第四页脚"
+
+#: functions.php:367
+msgid "Add widgets here to appear in site Footer Fourth column."
+msgstr "添加的小工具将出现在页脚第四列中。"
+
+#: functions.php:387
+msgctxt "Google font: on or off"
+msgid "on"
+msgstr "开"
+
+#: functions.php:416 functions.php:472
+msgid "Loading"
+msgstr "载入中"
+
+#: functions.php:432 inc/class-post-like.php:209 inc/class-post-like.php:332
+#: inc/class-post-like.php:476
+msgid "Like"
+msgstr "赞"
+
+#: functions.php:433 inc/class-post-like.php:205
+msgid "Unlike"
+msgstr "踩"
+
+#: functions.php:449 inc/customizer.php:670
+msgid ""
+"We are using cookies to personalize content and ads to make our site easier "
+"for you to use."
+msgstr "我们使用Cookie来个性化内容和广告，以使我们的网站更易于您使用。"
+
+#: functions.php:450 inc/customizer.php:682
+msgid "Agree"
+msgstr "同意"
+
+#: functions.php:451 inc/customizer.php:50 inc/customizer.php:694
+#: inc/customizer.php:1040 template-parts/hero.php:9
+msgid "Learn More"
+msgstr "了解更多"
+
+#: functions.php:471
+msgid "Load More"
+msgstr "加载更多"
+
+#: header.php:24
+msgid "Skip to content"
+msgstr "跳到内容"
+
+#: inc/class-breadcrumbs.php:23
+msgid "Home"
+msgstr "首页"
+
+#: inc/class-download-function.php:18 inc/class-download-function.php:165
+#: page-dl-demo.php:65
+msgid "Download Now"
+msgstr "现在下载"
+
+#: inc/class-download-function.php:19
+msgid ""
+"Please disable your Ad-Block! Otherwise download button will not be displayed"
+msgstr "请禁用您的广告拦截！否则将不显示下载按钮"
+
+#: inc/class-download-function.php:40
+msgid "Download"
+msgstr "下载"
+
+#: inc/class-download-function.php:41 inc/class-download-function.php:166
+msgid "demo"
+msgstr "演示"
+
+#: inc/class-download-function.php:152 inc/class-widgets.php:83
+msgid "Categories"
+msgstr "分类"
+
+#: inc/class-download-function.php:157 inc/class-download-metabox.php:40
+msgid "Author"
+msgstr "作者"
+
+#: inc/class-download-function.php:158 inc/class-download-metabox.php:52
+msgid "License"
+msgstr "许可证"
+
+#: inc/class-download-function.php:159 inc/class-download-metabox.php:46
+msgid "Official Website"
+msgstr "官方网站"
+
+#: inc/class-download-function.php:159
+msgid "Go to website"
+msgstr "转到网站"
+
+#: inc/class-download-function.php:165
+msgid "down"
+msgstr "下载"
+
+#: inc/class-download-function.php:166
+msgid "Live Preview"
+msgstr "在线预览"
+
+#: inc/class-download-metabox.php:14
+msgid "Download Information"
+msgstr "下载信息"
+
+#: inc/class-download-metabox.php:22
+msgid "Enable Download Function"
+msgstr "启用下载功能"
+
+#: inc/class-download-metabox.php:28
+msgid "Download Links"
+msgstr "下载链接"
+
+#: inc/class-download-metabox.php:34
+msgid "Demo Links"
+msgstr "演示链接"
+
+#: inc/class-download-metabox.php:42
+msgid "ietheme"
+msgstr "ietheme"
+
+#: inc/class-download-metabox.php:54
+msgid "MIT"
+msgstr "MIT"
+
+#: inc/class-meta-box.php:220
+msgid "Choose File"
+msgstr "选择文件"
+
+#: inc/class-meta-box.php:221
+msgid "Select"
+msgstr "选择"
+
+#: inc/class-metabox.php:13
+msgid "AD Post"
+msgstr "广告文章"
+
+#: inc/class-metabox.php:21
+msgid "Ad URL"
+msgstr "广告网址"
+
+#: inc/class-metabox.php:23
+msgid "This is a sponsor url."
+msgstr "这是赞助商网址。"
+
+#: inc/class-metabox.php:28
+msgid "Ad Button Value"
+msgstr "广告按钮值"
+
+#: inc/class-metabox.php:30
+msgid "Ad Button Value text."
+msgstr "广告按钮值文本。"
+
+#: inc/class-metabox.php:31
+msgid "Buy Now !"
+msgstr "现在购买！"
+
+#: inc/class-metabox.php:35
+msgid "Ad Extra Field"
+msgstr "广告额外字段"
+
+#: inc/class-metabox.php:37
+msgid "You can add extra information about ad , etc. price, name,."
+msgstr "您可以添加有关广告等价格，名称等的更多信息。"
+
+#: inc/class-metabox.php:38
+msgid "was $300 now only $250"
+msgstr "原价$300，现在只要$250"
+
+#: inc/class-metabox.php:42
+msgid "Sponsored Text"
+msgstr "赞助文本"
+
+#: inc/class-metabox.php:44
+msgid "This is a sponsored text."
+msgstr "这是赞助文本。"
+
+#: inc/class-metabox.php:45
+msgid "Ad Post"
+msgstr "广告文章"
+
+#: inc/class-pagination.php:136
+msgid "More Posts"
+msgstr "最多文章"
+
+#: inc/class-post-like.php:31
+msgid "Not permitted"
+msgstr "不允许"
+
+#: inc/class-post-like.php:348
+msgid "You Like:"
+msgstr "您赞过："
+
+#: inc/class-post-like.php:374
+msgid "You do not like anything yet."
+msgstr "您并没有对任何文章表达过喜欢。"
+
+#: inc/class-post-like.php:395
+msgid "Most Like Posts."
+msgstr "喜欢的文章。"
+
+#: inc/class-post-like.php:396
+msgid "Most Like Posts"
+msgstr "喜欢的文章"
+
+#: inc/class-post-like.php:403
+msgid "11. Like Posts"
+msgstr "11.点赞文章"
+
+#: inc/class-post-like.php:436
+msgid "Liked Posts"
+msgstr "最多点赞"
+
+#: inc/class-post-like.php:441 inc/class-widgets.php:73
+#: inc/class-widgets.php:256 inc/class-widgets.php:332
+#: inc/class-widgets.php:572 inc/class-widgets.php:745
+#: inc/class-widgets.php:863 inc/class-widgets.php:1172
+msgid "Title:"
+msgstr "标题："
+
+#: inc/class-post-like.php:445
+msgid "Number of Posts to show"
+msgstr "要显示的文章数量"
+
+#: inc/class-post-like.php:452
+msgid "Show number of views"
+msgstr "显示浏览数量"
+
+#: inc/class-post-view.php:62
+msgid "Views"
+msgstr "浏览"
+
+#: inc/class-submit.php:17
+msgctxt "post"
+msgid "Pending"
+msgstr "审核"
+
+#: inc/class-submit.php:22
+#, php-format
+msgid "Pending <span class=\"count\">(%s)</span>"
+msgid_plural "Pending <span class=\"count\">(%s)</span>"
+msgstr[0] "待处理 <span class=\"count\">(%s)</span>"
+
+#: inc/class-submit.php:43
+msgid "title must be fill!"
+msgstr "标题必须填写！"
+
+#: inc/class-submit.php:46
+msgid "content must be fill!"
+msgstr "内容必须填写！"
+
+#: inc/class-submit.php:49
+msgid "Url must not empty!"
+msgstr "网址不能为空!"
+
+#: inc/class-submit.php:60
+msgid "Featured image missing!"
+msgstr "特色图像丢失！"
+
+#: inc/class-submit.php:102
+msgid "Your post added successfully. Admin will approve soon."
+msgstr "您的文章添加成功。管理员很快就会批准。"
+
+#: inc/class-submit.php:102
+msgid "Back to Home page"
+msgstr "返回首页"
+
+#: inc/class-template.php:88
+msgid "Comment Submission Failure"
+msgstr "评论提交失败"
+
+#: inc/class-template.php:190
+msgid "Dashboard"
+msgstr "仪表盘"
+
+#: inc/class-template.php:190
+msgid "Login"
+msgstr "登录"
+
+#: inc/class-template.php:192
+msgid "Sign Out"
+msgstr "注销"
+
+#: inc/class-template.php:212
+msgid "Site Link:"
+msgstr "网站链接："
+
+#: inc/class-template.php:215
+msgid "All Links"
+msgstr "所有链接"
+
+#: inc/class-template.php:440
+msgid "Recommend"
+msgstr "推荐"
+
+#: inc/class-template.php:467
+msgid "Sponsor"
+msgstr "赞助商"
+
+#: inc/class-template.php:470
+msgid "No items"
+msgstr "无项目"
+
+#: inc/class-template.php:474
+#, php-format
+msgid "Posted %s"
+msgstr "发布于  %s"
+
+#: inc/class-template.php:524
+#, php-format
+msgid ""
+"This article was published on <strong>%3$s</strong> by <a "
+"href=\"%1$s\">%2$s</a>"
+msgstr "本文已在<strong>%3$s</strong>由<a href=\"%1$s\">%2$s</a>发布"
+
+#: inc/class-template.php:528 inc/class-template.php:530
+#, php-format
+msgid "<p>Article via URL: %1$s</p>"
+msgstr "<p>文章来源：%1$s</p>"
+
+#: inc/class-template.php:543
+#, php-format
+msgid ""
+"<p class=\"must-log-in\">\n"
+"                 You must <a href=\"%s\" class=\"ieu-login-btn\">Register</"
+"a>or\n"
+"                 <a href=\"%s\" class=\"ieu-login-btn\">Login</a> to post a "
+"comment</p>"
+msgstr ""
+"<p class=\"must-log-in\">\n"
+"                您必须<a href=\"%s\" class=\"ieu-login-btn\">注册</a>或 \n"
+"                 <a href=\"%s\" class=\"ieu-login-btn\">登录</a>后才能发表评"
+"论</p>"
+
+#: inc/class-template.php:565 template-parts/comments-navigation.php:11
+msgid "Comment navigation"
+msgstr "评论导航"
+
+#: inc/class-widgets.php:14
+msgid "09. Widget: Ads"
+msgstr "09.小工具：广告"
+
+#: inc/class-widgets.php:14
+msgid "You can place your Ad code into this widget."
+msgstr "您可以将您的广告代码放入此小工具中。"
+
+#: inc/class-widgets.php:63
+msgid "03. Category/Tag Posts"
+msgstr "03.分类/标签文章"
+
+#: inc/class-widgets.php:63
+msgid "Display the posts belong to a specific category or tag."
+msgstr "显示指定的分类文章或指定的标签文章。"
+
+#: inc/class-widgets.php:74 inc/class-widgets.php:333 inc/class-widgets.php:573
+msgid "Number of posts to show:"
+msgstr "显示文章数量："
+
+#: inc/class-widgets.php:75
+msgid "Taxonomy:"
+msgstr "分类："
+
+#: inc/class-widgets.php:77 inc/class-widgets.php:138 inc/class-widgets.php:231
+msgid "Category Posts"
+msgstr "分类文章"
+
+#: inc/class-widgets.php:80
+msgid "Tag Posts"
+msgstr "标签文章"
+
+#: inc/class-widgets.php:87
+msgid "- Select a Category -"
+msgstr "- 选择分类 -"
+
+#: inc/class-widgets.php:98
+msgid "Only used if \"Category Posts\" is selected."
+msgstr "仅在选择使用文章分类作为依据时才使用。"
+
+#: inc/class-widgets.php:99
+msgid "Excluded Categories:"
+msgstr "排除分类："
+
+#: inc/class-widgets.php:101
+msgid "Useful when a post has more than one category."
+msgstr "当文章有多个分类时这玩意就很有用啦。"
+
+#: inc/class-widgets.php:102
+msgid ""
+"Write category IDs you want to hide. Use comma (,) between them. Example: "
+"2,5,8"
+msgstr "输入您想要隐藏的分类ID， 在它们之间使用逗号（,）。 例如：2,5,8"
+
+#: inc/class-widgets.php:104
+msgid "Tags"
+msgstr "标签"
+
+#: inc/class-widgets.php:108
+msgid "- Select a Tag -"
+msgstr "- 选择标签 -"
+
+#: inc/class-widgets.php:120
+msgid "Only used if \"Tag Posts\" is selected."
+msgstr "仅列出所选分类的文章。"
+
+#: inc/class-widgets.php:121
+msgid "Excluded Tags:"
+msgstr "标签排除："
+
+#: inc/class-widgets.php:123
+msgid "Useful when a post has more than one tag."
+msgstr "当文章有多个标签时很有用。"
+
+#: inc/class-widgets.php:124
+msgid "Write tag IDs you want to hide."
+msgstr "输入想要隐藏的标签ID。"
+
+#: inc/class-widgets.php:126
+msgid "Excluded Posts:"
+msgstr "文章排除："
+
+#: inc/class-widgets.php:128
+msgid "Write post IDs you want to hide."
+msgstr "输入您想要隐藏的文章ID。"
+
+#: inc/class-widgets.php:242
+msgid "06. Widget Image"
+msgstr "06.小工具图像"
+
+#: inc/class-widgets.php:242
+msgid "Display an image with an optional title."
+msgstr "显示带有可选标题的图像。"
+
+#: inc/class-widgets.php:252
+msgid "Image Path:"
+msgstr "图像路径："
+
+#: inc/class-widgets.php:254
+msgid ""
+"To find the image path, go to \"Media > Library\", click the image and see "
+"the \"URL\" field."
+msgstr "要找到图像路径，请转到“媒体>库”，单击图像并查看“URL”字段。"
+
+#: inc/class-widgets.php:257
+msgid "Link:"
+msgstr "链接："
+
+#: inc/class-widgets.php:260 inc/class-widgets.php:474
+msgid "Open in new window"
+msgstr "在新窗口中打开"
+
+#: inc/class-widgets.php:311
+msgid "Wondered who I am?"
+msgstr "想知道我是谁吗？"
+
+#: inc/class-widgets.php:322
+msgid "02. Popular Posts"
+msgstr "02.热门文章"
+
+#: inc/class-widgets.php:322
+msgid "Display the most popular posts."
+msgstr "显示最受欢迎的文章。"
+
+#: inc/class-widgets.php:334
+msgid "Popularity Type:"
+msgstr "热门类型："
+
+#: inc/class-widgets.php:336
+msgid "Comment Based"
+msgstr "评论数"
+
+#: inc/class-widgets.php:339
+msgid "View Based"
+msgstr "浏览数"
+
+#: inc/class-widgets.php:350 inc/class-widgets.php:425
+msgid "Popular Posts"
+msgstr "热门文章"
+
+#: inc/class-widgets.php:408
+msgid "No Comment"
+msgstr "没有评论"
+
+#: inc/class-widgets.php:408 inc/class-widgets.php:974
+msgid "Comments"
+msgstr "评论"
+
+#: inc/class-widgets.php:410
+msgid "views"
+msgstr "阅读"
+
+#: inc/class-widgets.php:436
+msgid "05. Widget Post"
+msgstr "05.小工具文章"
+
+#: inc/class-widgets.php:436
+msgid "Display a single post."
+msgstr "显示单个文章。"
+
+#: inc/class-widgets.php:449
+msgid "Original Post:"
+msgstr "来源文章："
+
+#: inc/class-widgets.php:451 inc/class-widgets.php:741
+msgid "- Select a Post -"
+msgstr "- 选择文章 -"
+
+#: inc/class-widgets.php:457
+msgid "Alternative Post:"
+msgstr "替代文章："
+
+#: inc/class-widgets.php:459
+msgid "- Select an Alternative Post -"
+msgstr "- 选择替代文章 -"
+
+#: inc/class-widgets.php:466
+msgid ""
+"To avoid duplicated posts, you can set an alternative post which will be "
+"shown instead of the original one, on the original post page. Or simply hide "
+"this widget on the original post page by checking the box below."
+msgstr ""
+"为避免重复的文章，您可以在来源文章页面上设置替代文章，而不是原来的文章。 或者"
+"选中下面的复选框，直接在原来的文章页面上隐藏这个小部件。"
+
+#: inc/class-widgets.php:470
+msgid "Hide this widget on the original post page"
+msgstr "在来源文章页面隐藏这个小工具"
+
+#: inc/class-widgets.php:525 inc/class-widgets.php:531
+#: template-parts/post-card.php:52 template-parts/post-card.php:58
+#: template-parts/post-related.php:15 template-parts/post-related.php:21
+msgid "Featured Post"
+msgstr "精选文章"
+
+#: inc/class-widgets.php:562
+msgid "01. Recent/Random Posts"
+msgstr "01.最近/随机文章"
+
+#: inc/class-widgets.php:562
+msgid "Display the most recent or random posts."
+msgstr "显示最新文章或随机文章。"
+
+#: inc/class-widgets.php:574
+msgid "Display Options:"
+msgstr "显示选项："
+
+#: inc/class-widgets.php:576
+msgid "Show Recent Posts"
+msgstr "显示最近文章"
+
+#: inc/class-widgets.php:578
+msgid "Show Random Posts"
+msgstr "显示随机文章"
+
+#: inc/class-widgets.php:589 inc/class-widgets.php:661 inc/customizer.php:497
+msgid "Recent Posts"
+msgstr "最近文章"
+
+#: inc/class-widgets.php:672
+msgid "10.  Widget Search"
+msgstr "10.小工具搜索"
+
+#: inc/class-widgets.php:672
+msgid "A search form for your site."
+msgstr "您的网站的搜索表单。"
+
+#: inc/class-widgets.php:682
+msgid "This widget do not have options."
+msgstr "该小部件没有选项。"
+
+#: inc/class-widgets.php:708
+msgid "Keyword to search"
+msgstr "关键字搜索"
+
+#: inc/class-widgets.php:709
+msgid "Search"
+msgstr "搜索"
+
+#: inc/class-widgets.php:731
+msgid "04. Selected Posts"
+msgstr "04.选定文章"
+
+#: inc/class-widgets.php:731
+msgid "Display the posts you've selected."
+msgstr "显示您选择的文章。"
+
+#: inc/class-widgets.php:751
+msgid "Post"
+msgstr "文章"
+
+#: inc/class-widgets.php:771 inc/class-widgets.php:837
+msgid "Selected Posts"
+msgstr "选定文章"
+
+#: inc/class-widgets.php:848
+msgid "08. Social"
+msgstr "08.社交"
+
+#: inc/class-widgets.php:848
+msgid "Show your social account icons."
+msgstr "显示您的社交账号图标。"
+
+#: inc/class-widgets.php:857 inc/class-widgets.php:884
+#: inc/class-widgets.php:904
+msgid "Social Network"
+msgstr "社交网络"
+
+#: inc/class-widgets.php:864
+msgid "Write the entire URL addresses. Leave blank if not preferred."
+msgstr "编写整个URL地址，如果不是首选，留空白。"
+
+#: inc/class-widgets.php:953
+msgid "A widget to display Popular posts, latest posts and latest comments."
+msgstr "显示热门文章，最新文章和最新评论的小工具。"
+
+#: inc/class-widgets.php:955
+msgid "07. Tabs Posts"
+msgstr "07.标签文章"
+
+#: inc/class-widgets.php:972
+msgid "Popular"
+msgstr "热门"
+
+#: inc/class-widgets.php:973
+msgid "Recent"
+msgstr "最近"
+
+#: inc/class-widgets.php:1042
+msgid "Limit Posts Number "
+msgstr "限制文章数量 "
+
+#: inc/class-widgets.php:1058
+msgid "Displays Category Titles."
+msgstr "显示分类标题。"
+
+#: inc/class-widgets.php:1061
+msgid "12. Widget Category Tiles"
+msgstr "12.小工具分类磁贴"
+
+#: inc/class-widgets.php:1112
+msgid "[Optional] Title:"
+msgstr "[可选] 标题："
+
+#: inc/class-widgets.php:1117
+msgid "Tile Description :"
+msgstr "磁贴描述："
+
+#: inc/class-widgets.php:1119
+msgid "Category description"
+msgstr "分类描述"
+
+#: inc/class-widgets.php:1120
+msgid "Post Count"
+msgstr "文章计数"
+
+#: inc/class-widgets.php:1121
+msgid "Disable"
+msgstr "禁用"
+
+#: inc/class-widgets.php:1126
+msgid "Categories: (Separate category ids by the comma. e.g. 1,2):"
+msgstr "分类：（用逗号分隔类别ID，例如1,2）"
+
+#: inc/class-widgets.php:1135
+msgid "Display your most used Tags."
+msgstr "显示您最常用的标签。"
+
+#: inc/class-widgets.php:1136
+msgid "13. Most used Tags"
+msgstr "13.最常用标签"
+
+#: inc/class-widgets.php:1178
+msgid "Number of Posts:"
+msgstr "文章数量："
+
+#: inc/class-widgets.php:1186
+msgid "Most used Tags"
+msgstr "最常用的标签"
+
+#: inc/class-widgets.php:1197
+msgid "14. Widget:About"
+msgstr "14.小工具:关于"
+
+#: inc/class-widgets.php:1197
+msgid "You can place your site info here."
+msgstr "您可以在此处放置您的站点信息。"
+
+#: inc/class-widgets.php:1246 inc/customizer.php:397
+msgid "Title"
+msgstr "标题"
+
+#: inc/class-widgets.php:1251
+msgid "Choose your logo"
+msgstr "选择您的LOGO"
+
+#: inc/class-widgets.php:1264
+msgid "Choose logo"
+msgstr "选择LOGO"
+
+#: inc/class-widgets.php:1265
+msgid "Remove logo"
+msgstr "移除LOGO"
+
+#: inc/class-widgets.php:1270 inc/customizer.php:410
+msgid "Description"
+msgstr "描述"
+
+#: inc/class-widgets.php:1347
+msgid " Articles"
+msgstr " 文章"
+
+#: inc/class-widgets.php:1374
+msgid "View all World"
+msgstr "查看所有世界"
+
+#: inc/class-woocommerce.php:93
+msgid "Free"
+msgstr "免费"
+
+#: inc/class-woocommerce.php:115
+msgid "View your shopping cart"
+msgstr "查看您的购物车"
+
+#: inc/class-woocommerce.php:119
+#, php-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d 项目"
+
+#: inc/class-woocommerce.php:141 inc/class-woocommerce.php:156
+msgid "Choose an option"
+msgstr "选择一个选项"
+
+#: inc/customizer.php:30
+msgid "Hero Header Title"
+msgstr "英雄页眉标题"
+
+#: inc/customizer.php:31
+msgid "Customize the header hero title"
+msgstr "自定义页眉英雄标题"
+
+#: inc/customizer.php:42
+msgid "Hero Header"
+msgstr "英雄页眉"
+
+#: inc/customizer.php:43
+msgid "Customize the header hero text. (HTML is allowed)"
+msgstr "自定义页眉英雄文本。（允许HTML）"
+
+#: inc/customizer.php:55
+msgid "Hero Header Text"
+msgstr "英雄页眉文本"
+
+#: inc/customizer.php:67
+msgid "Hero Header URL"
+msgstr "英雄页眉网址"
+
+#: inc/customizer.php:80
+msgid "Enable Animation?"
+msgstr "启用动画？"
+
+#: inc/customizer.php:87
+msgid "General"
+msgstr "常规"
+
+#: inc/customizer.php:99
+msgid "Pagination In Main Loop"
+msgstr "主循环中的分页"
+
+#: inc/customizer.php:100
+msgid "Check on Which Pagination you want to use"
+msgstr "选择要使用的分页类型"
+
+#: inc/customizer.php:103
+msgid "Load More Pagination"
+msgstr "加载更多"
+
+#: inc/customizer.php:104
+msgid "Numeric Pagination"
+msgstr "数字分页"
+
+#: inc/customizer.php:117
+msgid "Breadcrumbs Control"
+msgstr "面包屑控制"
+
+#: inc/customizer.php:118
+msgid "Control the breadcrumbs option."
+msgstr "控制面包屑选项。"
+
+#: inc/customizer.php:130
+msgid "Enable Breadcrumbs?"
+msgstr "启用面包屑导航？"
+
+#: inc/customizer.php:137
+msgid "/"
+msgstr "/"
+
+#: inc/customizer.php:142
+msgid "Breadcrumbs Delimiter"
+msgstr "面包屑导航分隔符"
+
+#: inc/customizer.php:154
+msgid "Enable Structure data of the Breadcrumb?"
+msgstr "启用面包屑的结构数据？"
+
+#: inc/customizer.php:168
+msgid "Search Control"
+msgstr "搜索控制"
+
+#: inc/customizer.php:169
+msgid "Control the Search option."
+msgstr "控制搜索选项。"
+
+#: inc/customizer.php:179
+msgid "Display Search Icon"
+msgstr "显示搜索图标"
+
+#: inc/customizer.php:192
+msgid "Hot search words"
+msgstr "热门搜索词"
+
+#: inc/customizer.php:193
+msgid "Hot search words. (each line is a word)"
+msgstr "热门搜索词。 （每行是一个词）"
+
+#: inc/customizer.php:202
+msgid "Home Page"
+msgstr "首页页面"
+
+#: inc/customizer.php:203
+msgid "Setting of the homepage."
+msgstr "首页的设置。"
+
+#: inc/customizer.php:210
+msgid "Features"
+msgstr "特色"
+
+#: inc/customizer.php:211
+msgid "Features Block - add some features about this site."
+msgstr "功能区块-添加有关此站点的一些功能。"
+
+#: inc/customizer.php:226
+msgid "Feature Control"
+msgstr "功能控制"
+
+#: inc/customizer.php:227
+msgid "Control the feature block in home page."
+msgstr "控制首页中的功能区块。"
+
+#: inc/customizer.php:238
+msgid "Enable Features Block"
+msgstr "启用功能区块"
+
+#: inc/customizer.php:244
+msgid "Feature work one"
+msgstr "功能作品一"
+
+#: inc/customizer.php:249
+msgid "Feature One Title"
+msgstr "功能一标题"
+
+#: inc/customizer.php:250
+msgid "the title of feature one"
+msgstr "功能一的标题"
+
+#: inc/customizer.php:262
+msgid "the icon of feature one"
+msgstr "功能一的图标"
+
+#: inc/customizer.php:269 inc/customizer.php:306 inc/customizer.php:343
+#: inc/customizer.php:405
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+msgstr "Lorem ipsum dolor坐下来，一直保持着良好的状态。"
+
+#: inc/customizer.php:274
+msgid "the description of feature one"
+msgstr "功能一的描述"
+
+#: inc/customizer.php:281
+msgid "Feature work two"
+msgstr "功能作品二"
+
+#: inc/customizer.php:286
+msgid "Feature Two Title"
+msgstr "功能二标题"
+
+#: inc/customizer.php:287
+msgid "the title of feature two"
+msgstr "功能二的标题"
+
+#: inc/customizer.php:299
+msgid "the icon of feature two"
+msgstr "功能二的图标"
+
+#: inc/customizer.php:311
+msgid "the description of feature two"
+msgstr "功能二的描述"
+
+#: inc/customizer.php:318
+msgid "Feature work three"
+msgstr "功能作品三"
+
+#: inc/customizer.php:323
+msgid "Feature Three Title"
+msgstr "功能三标题"
+
+#: inc/customizer.php:324
+msgid "the title of feature three"
+msgstr "功能三的标题"
+
+#: inc/customizer.php:336
+msgid "the icon of feature three"
+msgstr "功能三的图标"
+
+#: inc/customizer.php:348
+msgid "the description of feature three"
+msgstr "功能三的描述"
+
+#: inc/customizer.php:359
+msgid "Portfolio"
+msgstr "作品"
+
+#: inc/customizer.php:360
+msgid "Portfolio Block - only for actived our portfolio plugin."
+msgstr "作品区块-仅适用于激活我们的作品插件。"
+
+#: inc/customizer.php:374
+msgid "Portfolio Control"
+msgstr "作品控制"
+
+#: inc/customizer.php:375
+msgid "Control the portfolio block in home page."
+msgstr "控制首页中的作品区块。"
+
+#: inc/customizer.php:386
+msgid "Enable Portfolio Block"
+msgstr "启用作品区块"
+
+#: inc/customizer.php:392
+msgid "Our work"
+msgstr "我们的工作"
+
+#: inc/customizer.php:398
+msgid "Portfolio block title"
+msgstr "作品区块标题"
+
+#: inc/customizer.php:411
+msgid "Portfolio block description"
+msgstr "作品区块描述"
+
+#: inc/customizer.php:418
+msgid "6"
+msgstr "6"
+
+#: inc/customizer.php:424
+msgid "Portfolio Post Count"
+msgstr "作品区块计数"
+
+#: inc/customizer.php:425
+msgid ""
+"Setting how many post will show in this block, for perfect display, count is "
+"3x, E.g 3,6,9 etc."
+msgstr ""
+"设置多少个文章将显示在此区块中，为了获得完美的显示效果，计数为3x，例如3,6,9"
+"等。"
+
+#: inc/customizer.php:437
+msgid "Show a load more button"
+msgstr "显示更多加载按钮"
+
+#: inc/customizer.php:450
+msgid "Button link Page"
+msgstr "按钮链接页眉"
+
+#: inc/customizer.php:460
+msgid "Main Loop"
+msgstr "主循环"
+
+#: inc/customizer.php:461
+msgid "Main Loop - Some option about the home loop."
+msgstr "主循环-有关主循环的一些选项。"
+
+#: inc/customizer.php:475
+msgid "Main Loop Control"
+msgstr "主循环控制"
+
+#: inc/customizer.php:476
+msgid "Control the main loop block in home page."
+msgstr "控制首页中的主循环区块。"
+
+#: inc/customizer.php:491
+msgid "Display Main Loop Title"
+msgstr "显示主循环标题"
+
+#: inc/customizer.php:502
+msgid "Main Loop Block Title text"
+msgstr "主循环区块标题文本"
+
+#: inc/customizer.php:518
+msgid "Main Loop Block Caption"
+msgstr "主循环区块描述"
+
+#: inc/customizer.php:528
+msgid "Blogroll"
+msgstr "友情链接"
+
+#: inc/customizer.php:529
+msgid ""
+"Blogroll - links manager. Note: if don't enable this options,the link "
+"manager can't use."
+msgstr "友情链接-链接管理器。注意：如果不启用此选项，则链接管理器将无法使用。"
+
+#: inc/customizer.php:543
+msgid "Blogroll Control"
+msgstr "友情链接控制"
+
+#: inc/customizer.php:544
+msgid "Control the blogroll block in home page."
+msgstr "控制首页中的友情链接区块。"
+
+#: inc/customizer.php:555
+msgid "Enable Blogroll?"
+msgstr "启用友情链接？"
+
+#: inc/customizer.php:566
+msgid "Links Section"
+msgstr "链接章节"
+
+#: inc/customizer.php:567
+msgid "Show a links section in end of homepage."
+msgstr "在首页末尾显示一个链接章节。"
+
+#: inc/customizer.php:580
+msgid "Select which page for Link page."
+msgstr "选择链接页面。"
+
+#: inc/customizer.php:588
+msgid "Footer"
+msgstr "页脚"
+
+#: inc/customizer.php:597
+msgid "Footer Copyright"
+msgstr "页脚版权"
+
+#: inc/customizer.php:598
+msgid "Customize the footer copyright text. (HTML is allowed)"
+msgstr "自定义页脚版权文本。(允许html代码)"
+
+#: inc/customizer.php:606
+msgid "Typography"
+msgstr "排版"
+
+#: inc/customizer.php:632
+msgid "Primary Font"
+msgstr "主要字体"
+
+#: inc/customizer.php:633
+msgid "Select your desired font for Menu items, titles etc."
+msgstr "为菜单项，标题等选择所需的字体。"
+
+#: inc/customizer.php:645
+msgid "Secondary Font"
+msgstr "次级字体"
+
+#: inc/customizer.php:646
+msgid "Select your desired font for Content, dates, miscellaneous."
+msgstr "为内容，日期，其他选择所需的字体。"
+
+#: inc/customizer.php:653
+msgid "GDPR"
+msgstr "GDPR"
+
+#: inc/customizer.php:654
+msgid "Settings for GDPR compliance."
+msgstr "符合GDPR的设置。"
+
+#: inc/customizer.php:664
+msgid "Show cookies consent notification bar?"
+msgstr "显示Cookie同意通知栏？"
+
+#: inc/customizer.php:675
+msgid "Cookies message text"
+msgstr "Cookies消息文本"
+
+#: inc/customizer.php:687
+msgid "Cookies button text"
+msgstr "Cookies按钮文本"
+
+#: inc/customizer.php:699
+msgid "Cookies learn more text"
+msgstr "Cookies了解更多文本"
+
+#: inc/customizer.php:711
+msgid "Cookies learn more URL"
+msgstr "Cookies了解更多网址"
+
+#: inc/customizer.php:719
+msgid "Demo & Download"
+msgstr "演示与下载"
+
+#: inc/customizer.php:720
+msgid "Addition demo and download."
+msgstr "附加演示和下载。"
+
+#: inc/customizer.php:733 inc/customizer.php:745
+msgid "Ad Blocker Detector"
+msgstr "广告拦截器检测"
+
+#: inc/customizer.php:734
+msgid ""
+"Block the adblockers from browsing the site, till they turnoff the Ad "
+"Blocker."
+msgstr "检测使用下载页面的广告拦截器，并提示禁用。"
+
+#: inc/customizer.php:760
+msgid "Message"
+msgstr "信息"
+
+#: inc/customizer.php:775
+msgid "Downloand and Demo"
+msgstr "下载与演示"
+
+#: inc/customizer.php:776
+msgid "You must setting this options below."
+msgstr "您必须在下面设置此选项。"
+
+#: inc/customizer.php:791
+msgid "Download Page"
+msgstr "下载页面"
+
+#: inc/customizer.php:806
+msgid "Demo Page"
+msgstr "演示页面"
+
+#: inc/customizer.php:819
+msgid "Delay before download (in seconds)"
+msgstr "下载前延迟（以秒为单位）"
+
+#: inc/customizer.php:834
+msgid "Download Count Style"
+msgstr "下载计数样式"
+
+#: inc/customizer.php:837
+msgid "Rounded"
+msgstr "缩短"
+
+#: inc/customizer.php:838
+msgid "Full"
+msgstr "完整"
+
+#: inc/customizer.php:850
+msgid "Counter"
+msgstr "计数"
+
+#: inc/customizer.php:853
+msgid "On"
+msgstr "开"
+
+#: inc/customizer.php:854
+msgid "Off"
+msgstr "关"
+
+#: inc/customizer.php:866
+msgid "Fake Download Count"
+msgstr "假下载计数"
+
+#: inc/customizer.php:867
+msgid "Leave 0 to show real count"
+msgstr "保留0以显示实际计数"
+
+#: inc/customizer.php:883
+msgid "Download & Demo Page Setting"
+msgstr "下载和演示页面设置"
+
+#: inc/customizer.php:884
+msgid "Control download and demo page content."
+msgstr "控制下载和演示页面的内容。"
+
+#: inc/customizer.php:895
+msgid "Enable Recommend Posts"
+msgstr "启用推荐文章"
+
+#: inc/customizer.php:906
+msgid "Sponsor Url, Must end for /feed"
+msgstr "赞助者网址，必须以/feed结尾"
+
+#: inc/customizer.php:916
+msgid "Advertisement"
+msgstr "广告"
+
+#: inc/customizer.php:917
+msgid "Advertising management."
+msgstr "广告管理。"
+
+#: inc/customizer.php:924
+msgid "Ads on Home Page"
+msgstr "首页上的广告"
+
+#: inc/customizer.php:925
+msgid "Advertisement - on Home page."
+msgstr "广告-在首页上。"
+
+#: inc/customizer.php:940
+msgid "Home Ads Control"
+msgstr "首页广告控制"
+
+#: inc/customizer.php:941
+msgid "Control advertisement in home page."
+msgstr "控制首页中的广告。"
+
+#: inc/customizer.php:956
+msgid "Display Home Ads"
+msgstr "展示首页广告"
+
+#: inc/customizer.php:971 inc/customizer.php:1170 inc/customizer.php:1239
+#: inc/customizer.php:1307 inc/customizer.php:1375 inc/customizer.php:1455
+#: inc/customizer.php:1535
+msgid "Only Show Ad In Mobile"
+msgstr "仅在移动设备上展示广告"
+
+#: inc/customizer.php:986
+msgid "Home Ads Code"
+msgstr "首页广告代码"
+
+#: inc/customizer.php:1002
+msgid "Home Banner Control"
+msgstr "首页横幅控制"
+
+#: inc/customizer.php:1003
+msgid "Control a banner in home page."
+msgstr "控制首页中的横幅。"
+
+#: inc/customizer.php:1018
+msgid "Display Home Banner"
+msgstr "显示首页横幅"
+
+#: inc/customizer.php:1033
+msgid "Banner URL"
+msgstr "横幅网址"
+
+#: inc/customizer.php:1045
+msgid "Banner button text"
+msgstr "横幅按钮文本"
+
+#: inc/customizer.php:1046
+msgid "Leave blank to not display button"
+msgstr "留空不显示按钮"
+
+#: inc/customizer.php:1062
+msgid "Banner Caption"
+msgstr "横幅描述"
+
+#: inc/customizer.php:1080
+msgid "Banner Image"
+msgstr "横幅图像"
+
+#: inc/customizer.php:1083 inc/customizer.php:1088
+msgid "Select Image"
+msgstr "选择图像"
+
+#: inc/customizer.php:1084
+msgid "Change Image"
+msgstr "更换图像"
+
+#: inc/customizer.php:1085
+msgid "Remove"
+msgstr "移出"
+
+#: inc/customizer.php:1086
+msgid "Default"
+msgstr "默认"
+
+#: inc/customizer.php:1087
+msgid "No image selected"
+msgstr "未选择图像"
+
+#: inc/customizer.php:1089
+msgid "Choose Image"
+msgstr "选择图像"
+
+#: inc/customizer.php:1097
+msgid "Ads on Single Posts"
+msgstr "文章广告"
+
+#: inc/customizer.php:1098
+msgid "Advertisement - on Single Posts."
+msgstr "广告-在单个文章上。"
+
+#: inc/customizer.php:1113
+msgid "Single Posts Ads Control"
+msgstr "文章广告控制"
+
+#: inc/customizer.php:1114
+msgid "Control advertisement in single posts page."
+msgstr "控制单个文章页面中的广告。"
+
+#: inc/customizer.php:1125
+msgid "Only Show Ads for no't login user?"
+msgstr "只为没有登录用户显示广告？"
+
+#: inc/customizer.php:1126
+msgid "If enable all the option below this will not work."
+msgstr "如果启用下面的所有选项，则将不起作用。"
+
+#: inc/customizer.php:1139
+msgid "Single Posts Ads position"
+msgstr "文章广告排名"
+
+#: inc/customizer.php:1140
+msgid "Control advertisement position."
+msgstr "控制广告位置。"
+
+#: inc/customizer.php:1155
+msgid "Single post top ads"
+msgstr "文章顶部广告"
+
+#: inc/customizer.php:1185
+msgid "Display Top Ads alignment"
+msgstr "显示顶部广告对齐"
+
+#: inc/customizer.php:1190 inc/customizer.php:1259 inc/customizer.php:1327
+#: inc/customizer.php:1395 inc/customizer.php:1475 inc/customizer.php:1555
+msgid "Left"
+msgstr "左侧"
+
+#: inc/customizer.php:1191 inc/customizer.php:1260 inc/customizer.php:1328
+#: inc/customizer.php:1396 inc/customizer.php:1476 inc/customizer.php:1556
+msgid "Right"
+msgstr "右侧"
+
+#: inc/customizer.php:1192
+msgid "Right Surround"
+msgstr "右环绕"
+
+#: inc/customizer.php:1193 inc/customizer.php:1261 inc/customizer.php:1329
+#: inc/customizer.php:1397 inc/customizer.php:1477 inc/customizer.php:1557
+msgid "Center"
+msgstr "居中"
+
+#: inc/customizer.php:1208
+msgid "Single post top ad html"
+msgstr "文章顶部广告html"
+
+#: inc/customizer.php:1224
+msgid "Single post bottom ads"
+msgstr "文章底部广告"
+
+#: inc/customizer.php:1254
+msgid "Display Bottom Ads alignment"
+msgstr "显示底部广告对齐"
+
+#: inc/customizer.php:1276
+msgid "Single post bottom ad html"
+msgstr "文章底部广告html"
+
+#: inc/customizer.php:1292
+msgid "Single post middle ads"
+msgstr "文章中间广告"
+
+#: inc/customizer.php:1322
+msgid "Display Middle Ads alignment"
+msgstr "显示中间广告对齐"
+
+#: inc/customizer.php:1344
+msgid "Single post middle ad html"
+msgstr "文章中间广告html"
+
+#: inc/customizer.php:1360
+msgid "Single post Paragaph ads 1"
+msgstr "文章段落1广告"
+
+#: inc/customizer.php:1390
+msgid "Display Paragraph1 Ads alignment"
+msgstr "显示段落1广告对齐"
+
+#: inc/customizer.php:1408 inc/customizer.php:1488 inc/customizer.php:1568
+msgid "Show ads in which paragraph(p)"
+msgstr "显示那一段（p）的广告"
+
+#: inc/customizer.php:1424
+msgid "Single post paragaph ad 1 html"
+msgstr "文章段落1广告html"
+
+#: inc/customizer.php:1440
+msgid "Single post Paragaph 2 ads"
+msgstr "文章段落2广告"
+
+#: inc/customizer.php:1470
+msgid "Display Paragraph2 Ads alignment"
+msgstr "显示段落2广告对齐"
+
+#: inc/customizer.php:1504
+msgid "Single post paragaph ad 2 html"
+msgstr "文章段落2广告html"
+
+#: inc/customizer.php:1520
+msgid "Single post Paragaph 3 ads"
+msgstr "文章段落3广告"
+
+#: inc/customizer.php:1550
+msgid "Display Paragraph3 Ads alignment"
+msgstr "显示段落3广告对齐"
+
+#: inc/customizer.php:1584
+msgid "Single post paragaph ad 3 html"
+msgstr "文章段落3广告html"
+
+#: inc/customizer.php:1593
+msgid "Ads on Download & Demo"
+msgstr "下载和演示广告"
+
+#: inc/customizer.php:1594
+msgid "Advertisement - on Download & Demo Page."
+msgstr "广告-在下载和演示页面上。"
+
+#: inc/customizer.php:1609
+msgid "Download & Demo Ads Control"
+msgstr "下载和演示广告控制"
+
+#: inc/customizer.php:1610
+msgid "Control advertisement in download & demo Page."
+msgstr "在下载和演示页面中控制广告。"
+
+#: inc/customizer.php:1625
+msgid "Download & Demo top ad html"
+msgstr "下载并演示顶部广告html"
+
+#: inc/customizer.php:1641
+msgid "Download & Demo bottom ad html"
+msgstr "下载和演示底部广告html"
+
+#: inc/customizer.php:1649
+msgid "Custom\tjs&css"
+msgstr "自定义js＆css"
+
+#: inc/customizer.php:1660
+msgid "Custom JS"
+msgstr "自定义JS"
+
+#: inc/customizer.php:1661
+msgid "Customize js in header."
+msgstr "自定义页眉中的js。"
+
+#: inc/customizer.php:1674
+msgid "Custom CSS"
+msgstr "自定义CSS"
+
+#: inc/customizer.php:1675
+msgid "Customize css in header."
+msgstr "自定义页眉中的css。"
+
+#: inc/extras.php:70
+msgid "< 1 min read"
+msgstr "<1分钟阅读"
+
+#: inc/extras.php:72
+msgid "1 min read"
+msgstr "1分钟阅读"
+
+#: inc/extras.php:74
+msgid "mins read"
+msgstr "分钟阅读"
+
+#: inc/extras.php:144
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/extras.php:145
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/extras.php:146
+msgid "Weibo"
+msgstr "Weibo"
+
+#: inc/extras.php:147
+msgid "QQ"
+msgstr "QQ"
+
+#: inc/extras.php:148
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: inc/extras.php:149
+msgid "Google+"
+msgstr "Google+"
+
+#: inc/extras.php:150
+msgid "LinkedIn"
+msgstr "Linkedin"
+
+#: inc/extras.php:185
+msgid "k"
+msgstr "ķ"
+
+#: inc/extras.php:188
+msgid "M"
+msgstr "M"
+
+#: inc/template-tags.php:50
+#, php-format
+msgctxt "post date"
+msgid "%s"
+msgstr "%s"
+
+#: inc/template-tags.php:67
+msgid "Updated:"
+msgstr "已更新："
+
+#: inc/template-tags.php:99 page-notitle.php:34 page.php:44
+#, php-format
+msgid "Edit %s"
+msgstr "编辑 %s"
+
+#: page-dl-demo.php:90
+#, php-format
+msgid ""
+"Thank you for downloading <strong>%s</strong> from our site. The following "
+"are available links. And just press the button and the file will be "
+"automatically downloaded."
+msgstr ""
+"感谢您从我们的网站下载 <strong>%s</strong> 。以下是可用的链接。只需按下按钮，"
+"文件将自动下载。"
+
+#: page-dl-demo.php:93
+msgid "Waiting <span id=\"numDiv\">10</span> seconds..."
+msgstr "正在等待 <span id=\"numDiv\">10</span> 秒..."
+
+#: page-dl-demo.php:97
+#, php-format
+msgid ""
+"You are now ready to download <strong>%s</strong> for free. Here are some "
+"notes:"
+msgstr "您现在可以免费下载 <strong>%s</strong> 了。以下是一些注意事项："
+
+#: page-dl-demo.php:98
+#, php-format
+msgid ""
+"1. How to use it? Please check our <a href=\"%s\" target=\"_blank\" "
+"rel=\"nofollow\">use guide</a>."
+msgstr ""
+"1. 如何使用？请查看我们的 <a href=\"%s\" target=\"_blank\" rel=\"nofollow\">"
+"使用指南</a>。"
+
+#: page-dl-demo.php:99
+#, php-format
+msgid ""
+"2. IF The link is broken. Report it to us via <a href=\"%s\" "
+"target=\"_blank\" rel=\"nofollow\">contact form</a> here."
+msgstr ""
+"2. 如果链接失效。请在此处通过 <a href=\"%s\" target=\"_blank\" "
+"rel=\"nofollow\">联系表格</a> 向我们报告。"
+
+#: page-dl-demo.php:100
+#, php-format
+msgid "3.  Downloads are in full compliance with the %s."
+msgstr "3. 下载完全符合%s协议。"
+
+#: page-dl-demo.php:101
+msgid "4. We will not provide support for downloads."
+msgstr "4. 我们不会提供任何下载支持。"
+
+#: page-dl-demo.php:102
+msgid ""
+"5. If you need, please consider the purchase of an applicable support "
+"license from the developer."
+msgstr "5. 如果需要，请考虑从开发人员处购买适用的支持许可证。"
+
+#: page-post.php:19
+msgid "You Must be Logged in to submit post,"
+msgstr "您必须先登录才能提交文章,"
+
+#: page-post.php:21
+msgid "Register or Login Here"
+msgstr "请在此注册或登录"
+
+#: page-post.php:73
+msgid "Add New Post"
+msgstr "新增文章"
+
+#: page-post.php:75
+msgid ""
+"Note: You are not write full post but the post summary, we will edit for you."
+msgstr "注意：您不是写完整的文章，而是文章摘要，我们将为您编辑。"
+
+#: page-post.php:85
+msgid "Title *"
+msgstr "标题 *"
+
+#: page-post.php:87
+msgid "Use raw text for post title. Don't include here html."
+msgstr "使用原始文本作为文章标题。不要在此处包含html。"
+
+#: page-post.php:91
+msgid "Content *"
+msgstr "内容 *"
+
+#: page-post.php:93
+msgid "Use raw text for post content. Don't include here html."
+msgstr "使用原始文本作为文章内容。不要在此处包含html。"
+
+#: page-post.php:97
+msgid "Featured image *"
+msgstr "特色图像 *"
+
+#: page-post.php:99
+msgid ""
+"Choose and upload image for featured image. Supported file types: jpg, png, "
+"gif, bmp, jpeg"
+msgstr "选择并上传图像以显示特色图像。支持的文件类型：jpg，png，gif，bmp，jpeg"
+
+#: page-post.php:103
+msgid "Original url *"
+msgstr "原始网址 *"
+
+#: page-post.php:105
+msgid "Place here your post original url"
+msgstr "将您的文章原始网址放在此处"
+
+#: page-post.php:110
+msgid "Select Existing Video Category"
+msgstr "选择现有分类"
+
+#: page-post.php:112
+msgid ""
+"This is optional. You can choose post category from existing categories."
+msgstr "这是可选的。您可以从现有分类中选择文章分类。"
+
+#: page-post.php:116
+msgid "New Category"
+msgstr "新分类"
+
+#: page-post.php:118
+msgid ""
+"This is optional. You can enter new post category separated by comma(,). "
+"Example Travel,Fun"
+msgstr "这是可选的。您可以输入新的文章分类，以逗号（，）分隔。旅行，娱乐的例子"
+
+#: page-post.php:123
+msgid "Submit"
+msgstr "提交"
+
+#: template-parts/author-bio.php:17
+#, php-format
+msgid "Author Archives: %s"
+msgstr "作者存档：%s"
+
+#: template-parts/comments-navigation.php:16
+msgid "Older Comments"
+msgstr "较早评论"
+
+#: template-parts/comments-navigation.php:22
+msgid "Newer Comments"
+msgstr "较新评论"
+
+#: template-parts/content-none.php:18
+msgid "Nothing Found"
+msgstr "什么都没找到"
+
+#: template-parts/modal-search-form.php:16
+msgid "Type and hit enter"
+msgstr "键入并按Enter键"
+
+#: template-parts/modal-search-form.php:28
+msgid "Popular Search "
+msgstr "热门搜索 "
+
+#: template-parts/modal-search-form.php:55
+msgid "Popular Tags "
+msgstr "热门标签 "
+
+#: template-parts/navigation.php:11
+msgid "Primary Navigation"
+msgstr "主要导航"
+
+#: template-parts/no-results.php:13
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "准备好发布您的第一篇文章？<a href=\"%1$s\">从这里开始</a>。"
+
+#: template-parts/no-results.php:19
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr "对不起，没有符合您的搜索条件。请换其它关键词再试。"
+
+#: template-parts/no-results.php:29
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr "看来我们不能找到您要找的东西。也许搜索可以提供帮助。"
+
+#: template-parts/post-navigation.php:12
+msgid "Next"
+msgstr "下一页"
+
+#: template-parts/post-navigation.php:13
+msgid "Next post:"
+msgstr "下一篇文章："
+
+#: template-parts/post-navigation.php:15
+msgid "Previous"
+msgstr "上一页"
+
+#: template-parts/post-navigation.php:16
+msgid "Previous post:"
+msgstr "上一篇文章："
+
+#: template-parts/search-header.php:13
+#, php-format
+msgid "Search Results for: %s"
+msgstr "搜索结果：%s"
+
+#: template-parts/share.php:12
+msgid "Share on Twitter"
+msgstr "分享到Twitter"
+
+#: template-parts/share.php:15
+msgid "Share on Facebook"
+msgstr "分享到Facebook"
+
+#: template-parts/share.php:18
+msgid "Share on Pinterest"
+msgstr "分享到Pinterest"
+
+#: template-parts/share.php:21
+msgid "Share on Weibo"
+msgstr "分享到Weibo"
+
+#: template-parts/share.php:24
+msgid "Share on QQ"
+msgstr "分享到QQ"
+
+#: template-parts/share.php:27
+msgid "Share on Linkedin"
+msgstr "分享到LinkedIn"
+
+#: template-parts/tag-header.php:16
+#, php-format
+msgid "Tag Archives: %s"
+msgstr "标签存档：%s"
+
+#: template-parts/wp-link-pages.php:12
+msgid "Pages:"
+msgstr "页码："
+
+#. Theme Name of the plugin/theme
+msgid "Iebase"
+msgstr "Iebase"
+
+#. Theme URI of the plugin/theme
+msgid "https://ietheme.com/themes/iebase-wordpress/"
+msgstr "https://ietheme.com/themes/iebase-wordpress/"
+
+#. Description of the plugin/theme
+msgid ""
+"Blog and Magazine Clean WordPress Theme by - <a href=\"http://ietheme."
+"com\">ieThemes</a>"
+msgstr ""
+"Blog and Magazine Clean WordPress Theme by - <a href=\"http://ietheme."
+"com\">ieThemes</a>"
+
+#. Author of the plugin/theme
+msgid "99839"
+msgstr "99839"
+
+#. Author URI of the plugin/theme
+msgid "http://ietheme.com"
+msgstr "http://ietheme.com"
+
+#. Template Name of the plugin/theme
+msgid "Blog"
+msgstr "博客"
+
+#. Template Name of the plugin/theme
+msgid "Contact Form"
+msgstr "联系表单"
+
+#. Template Name of the plugin/theme
+msgid "Coupon"
+msgstr "优惠券"
+
+#. Template Name of the plugin/theme
+msgid "Dl and Demo"
+msgstr "下载和演示"
+
+#. Template Name of the plugin/theme
+msgid "No title page"
+msgstr "无标题页面"
+
+#. Template Name of the plugin/theme
+msgid "Login and Submit Video"
+msgstr "登录并提交视频"
+
+#. Template Name of the plugin/theme
+msgid "Woocommerce"
+msgstr "WooCommerce"
+
+#. Template Name of the plugin/theme
+msgid "Download & Demo"
+msgstr "下载 & 演示"
+
+#~ msgid "No Reviews found"
+#~ msgstr "目前还没有评论"
+
+#~ msgid "Thanks! Your url is waiting "
+#~ msgstr "谢谢！您的网址正在等待 "
+
+#~ msgid "in"
+#~ msgstr "在"
+
+#~ msgid "second"
+#~ msgid_plural "seconds"
+#~ msgstr[0] "秒"
+
+#~ msgid "Warning: you will leave our site and go to other site, please"
+#~ msgstr "警告：您将离开我们的网站并转到其他网站"
+
+#~ msgid "click here"
+#~ msgstr "点击这里"
+
+#~ msgid "Invalid request"
+#~ msgstr "无效的请求"
+
+#~ msgid "File Size"
+#~ msgstr "文件大小"
+
+#~ msgid "64mb"
+#~ msgstr "64mb"
+
+#~ msgid "Thanks! Your download is starting"
+#~ msgstr "谢谢！您的下载开始在"
+
+#~ msgid "If your download doesn't start automatically please"
+#~ msgstr "如果您的下载没有自动开始，请"
+
+#~ msgid "Browse More Item"
+#~ msgstr "浏览更多项目"
+
+#, php-format
+#~ msgid "View all posts in %s"
+#~ msgstr "查看%s全部文章"
+
+#~ msgid "article"
+#~ msgstr "文章"
+
+#~ msgid "Tag"
+#~ msgid_plural "Tags"
+#~ msgstr[0] "标签"
+
+#, php-format
+#~ msgid "%1$s review for %2$s"
+#~ msgid_plural "%1$s reviews for %2$s"
+#~ msgstr[0] "%1$s 评价来自 %2$s"
+
+#~ msgid "Reviews"
+#~ msgstr "评价"
+
+#~ msgid "There are no reviews yet."
+#~ msgstr "还没有评价。"
+
+#~ msgid "Add a review"
+#~ msgstr "添加评价"
+
+#, php-format
+#~ msgid "Be the first to review &ldquo;%s&rdquo;"
+#~ msgstr "第一个评价 &ldquo;%s&rdquo;"
+
+#, php-format
+#~ msgid "Leave a Reply to %s"
+#~ msgstr "发表回复给 %s"
+
+#, php-format
+#~ msgid "You must be %1$slogged in%2$s to post a review."
+#~ msgstr "您必须 %1$s 登录 %2$s 后才能发表评价。"
+
+#~ msgid "Your rating"
+#~ msgstr "您的评级"
+
+#~ msgid "Rate&hellip;"
+#~ msgstr "评级&hellip;"
+
+#~ msgid "Perfect"
+#~ msgstr "完美"
+
+#~ msgid "Good"
+#~ msgstr "很好"
+
+#~ msgid "Average"
+#~ msgstr "一般"
+
+#~ msgid "Not that bad"
+#~ msgstr "还行"
+
+#~ msgid "Very poor"
+#~ msgstr "很烂"
+
+#~ msgid "Your review"
+#~ msgstr "您的评价"
+
+#~ msgid ""
+#~ "Only logged in customers who have purchased this product may leave a "
+#~ "review."
+#~ msgstr "只有登录购买该商品的顾客可以留下评价。"
+
+#~ msgid "App"
+#~ msgstr "应用"
+
+#~ msgid "Tagmap"
+#~ msgstr "标签地图"

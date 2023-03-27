@@ -1,0 +1,286 @@
+body,
+div,
+html,
+iframe,
+ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline
+}
+
+ol,
+ul {
+    list-style: none
+}
+
+html[lang]{
+  margin-top: 0 !important;
+}
+
+body {
+    overflow: hidden;
+    font-weight: 400;
+    color: #333;
+    font-size: 13px;
+    line-height: 1;
+}
+
+a {
+    text-decoration: none;
+}
+
+#switcher {
+    height: auto;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    z-index: 99999;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, .07);
+    transition: all .5s ease;
+    top: 0
+}
+
+#switcher.fbar-hidden-switcher {
+    box-shadow: none;
+    margin-top: -64px
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    padding: 0 40px
+}
+
+.links {
+    display: flex;
+    margin-left: auto;
+    align-items: center
+}
+
+.links li:last-child {
+    margin-right: 20px;
+    margin-left: 20px
+}
+
+.center ul li {
+    display: inline-block
+}
+
+#iframe {
+    display: block;
+    margin: 52px auto 0;
+    transition: all .5s ease;
+    height: calc(100vh - 52px)
+}
+
+#iframe.fbar-top-iframe {
+    margin-top: 0;
+    height: 100vh
+}
+
+#switcher .fbar-separator,
+#switcher .logo,
+#switcher .responsive {
+    display: block;
+    float: none
+}
+
+.fbar-separator {
+    height: 50px;
+    width: 1px;
+    background-color: #e9e9e9;
+    content: " ";
+    vertical-align: middle;
+    margin: auto 30px
+}
+
+.logo img {
+    max-width: 100%;
+    position: relative;
+}
+
+
+@media (min-width: 64rem) {
+    .logo .ie-logo-link {
+        width: 100%;
+    }
+}
+
+.responsive {
+    float: left
+}
+
+.responsive a {
+    margin-right: 10px;
+    float: left
+}
+
+.responsive a:last-child {
+    margin-right: 0
+}
+
+.responsive a svg {
+    opacity: .5;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease
+}
+
+.responsive_buttons_demo a {
+    max-width: 25px;
+    max-height: 25px
+}
+
+.responsive_buttons_demo a svg {
+    width: 100%;
+    height: 100%
+}
+
+.responsive a.mobilelandscape svg,
+.responsive a.tabletlandscape svg {
+    transform: rotate(90deg)
+}
+
+.responsive a.active svg,
+.responsive a:hover svg {
+    opacity: .8;
+    color: #fff
+}
+
+#hide-demo-bar {
+    transition: .3s ease;
+    opacity: .5;
+    margin-top: -15px;
+    display: block;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    content: ""
+}
+
+#hide-demo-bar:hover {
+    opacity: 1
+}
+
+#hide-demo-bar svg {
+    width: 100%;
+    height: 100%
+}
+
+#hide-demo-bar.fbar-hidden-btn {
+    transition: all .5s;
+    margin-top: 45px;
+    padding: 5px;
+    box-shadow: 0 1px 5px 1px rgba(0, 0, 0, .35);
+    width: 30px;
+    height: 30px;
+    background: #fff
+}
+
+#hide-demo-bar svg:last-child {
+    display: none
+}
+
+#hide-demo-bar.fbar-hidden-btn svg:last-child {
+    display: block
+}
+
+#hide-demo-bar.fbar-hidden-btn svg:first-child {
+    display: none
+}
+
+#switcher.fbar-hidden #hide-demo-bar {
+    background-position: 10px
+}
+
+.livedemo-btn {
+    display: inline-block;
+    margin: 0;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: normal;
+    border-radius: 0;
+    letter-spacing: 1px;
+    color: #fff;
+    padding: 16px 50px;
+    background: #ff7f66;
+    transition: all .3s ease
+}
+
+.livedemo-btn:focus,
+.livedemo-btn:hover {
+    background: #393939;
+    color: #fff
+}
+
+@media (max-width: 1200px) {
+    #hide-demo-bar.fbar-hidden-btn {
+        right: 20px
+    }
+
+    #switcher .fbar-separator {
+        display: none
+    }
+
+    .links li:last-child {
+        margin-right: 30px
+    }
+
+    .fbar-separator {
+        margin: auto 20px
+    }
+
+    .center {
+        padding: 0 20px
+    }
+}
+
+
+
+@media (max-width: 767px) {
+    #switcher .fbar-separator,
+    #switcher .responsive.responsive_buttons_demo {
+        display: none
+    }
+
+    .logo {
+        margin-right: 10px
+    }
+
+    .close a {
+        padding: 10px 5px;
+        margin-left: 6px
+    }
+
+    .links {
+        font-size: 11px
+    }
+
+}
+
+@media (max-width: 480px) {
+    .center {
+        width: 95%
+    }
+
+    .purchase a {
+        padding: 18px 30px
+    }
+
+    .close a {
+        padding: 10px 5px;
+        margin-left: 6px
+    }
+
+    .links {
+        font-size: 0
+    }
+}
