@@ -3,18 +3,19 @@
   'use strict';
 
   // =====================
-  // Headroom.js
+  // Sictk header
   // =====================
 
-  $('.js-header').headroom({
-    classes: {
-      initial: 'ie-header--headroom',
-      top: 'ie-header--top',
-      notTop: 'ie-header--not-top',
-      pinned: 'ie-header--pinned',
-      unpinned: 'ie-header--unpinned'
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    const item = document.querySelector(".js-header");
+    if (document.body.scrollTop > 1 || document.documentElement.scrollTop > 1) {
+      item.classList.add("ie-header--pinned");
+    } else {
+      item.classList.remove("ie-header--pinned");
     }
-  });
+  }
 
   // =====================
   // Post Card Images Fade
@@ -318,15 +319,34 @@
 
   /* Sticky sidebar
 -------------------------------------------------------*/
-  (function () {
-    var $stickyCol = $('.c-sidebar');
-    if ($stickyCol.length) {
-      $stickyCol.stick_in_parent({
-        offset_top: 100
+  $(function() {
+    $('.c-sidebar .widget').last().addClass('sticky-sidebar');
+    if ($('.sticky-sidebar').length) {
+      var el = $('.sticky-sidebar');
+      var stickyTop = $('.sticky-sidebar').offset().top;
+      var stickyHeight = $('.sticky-sidebar').height();
+      var stickywidth = $('.sticky-sidebar').width();
+      $(window).scroll(function() {
+        var limit = $('.ie-footer').offset().top - stickyHeight - 20;
+        var windowTop = $(window).scrollTop();
+        if (stickyTop < windowTop) {
+          el.css({
+            position: 'fixed',
+            top: 100,
+            width: stickywidth
+          });
+        } else {
+          el.css('position', 'static');
+        }
+        if (limit < windowTop) {
+          var diff = limit - windowTop;
+          el.css({
+            top: diff
+          });
+        }
       });
     }
-  })();
-
+  });
   /* Post reading progress for single post page
   -------------------------------------------------------*/
   jQuery(document).ready(function ($) {
