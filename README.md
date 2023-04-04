@@ -49,7 +49,7 @@
 
 ### 说明文档
 
-- [在线文档]([https://ietheme.com](https://ietheme.com/iebase-theme/))
+- [在线文档](https://ietheme.com/iebase-theme)
 - 建议或BUG反馈：[立即进入](https://github.com/99839/iebase/issues)
 - QQ交流群：196410182
 - **若您有任何建议或BUG发现，并且您也有解决或实现的思路，欢迎直接提交PR！**
