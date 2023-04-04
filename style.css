@@ -1221,59 +1221,42 @@ td {
   transition: .3s ease-out;
 }
 
-.ie-header--no-cover {
-  border-bottom: var(--ie-border);
+.ie-header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 100;
+  will-change: transform;
+  perspective: 1000;
+  -webkit-perspective: 1000;
+  transition: -webkit-transform 500ms ease-in-out;
+  transition: transform 500ms ease-in-out;
+  transition: transform 500ms ease-in-out, -webkit-transform 500ms ease-in-out;
 }
 
-@media (min-width: 64em) {
-  .ie-header {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 100;
-    will-change: transform;
-    perspective: 1000;
-    -webkit-perspective: 1000;
-    transition: -webkit-transform 500ms ease-in-out;
-    transition: transform 500ms ease-in-out;
-    transition: transform 500ms ease-in-out, -webkit-transform 500ms ease-in-out;
-  }
+.js-header {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
 
-  .admin-bar .ie-header {
-    top: 2rem;
-  }
-
-  .ie-header--not-top {
-    border-bottom: var(--ie-border);
-  }
-
-  .ie-header--pinned {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-
-  .ie-header--unpinned {
-    /*-webkit-transform: translateY(-100%);
+.js-header.ie-header--pinned {
+  /*-webkit-transform: translateY(-100%);
             transform: translateY(-100%);*/
-    -webkit-transform: translateY(-20%);
-    transform: translateY(-20%);
-    padding: 1.25rem;
+  -webkit-transform: translateY(-20%);
+  transform: translateY(-20%);
+  padding: 1.75rem 0 1.0rem 0;
 
-  }
-
-  .ie-header--unpinned .e-grid__col--full {
-    margin-top: .625rem;
-    margin-bottom: -0.625rem;
-  }
 }
 
 @media (min-width: 64rem) {
   .header-headroom-space {
     margin-top: 4rem;
   }
+  .admin-bar .ie-header {
+    top: 2rem;
+  }
 }
-
 /*------------------------------------*  Components > Logo
 \*------------------------------------*/
 .ie-logo-link {
@@ -2630,6 +2613,7 @@ body {
   padding: 1rem 0 1rem 0;
   background-color: #F7FAFA;
   border-top: var(--ie-border);
+  z-index: 9;
 }
 
 .ie-footer__top {
