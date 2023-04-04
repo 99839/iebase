@@ -53,7 +53,7 @@ get_header(); ?>
 
       </article>
     </div>
-    <div class='e-grid__col e-grid__col--center e-grid__col--4-4-m e-grid__col--1-3-l'>
+    <div class='c-sidebar e-grid__col e-grid__col--center e-grid__col--4-4-m e-grid__col--1-3-l'>
       <?php get_sidebar(); ?>
     </div>
   </div>
