@@ -397,8 +397,6 @@ if ( ! function_exists ( 'iebase_fonts_url' ) ) {
 function iebase_scripts() {
   global $wp_query;
 
-  //wp_enqueue_style( 'iebase-fonts', iebase_fonts_url(), array(), '1.0.4' );
-
   if ( ! is_rtl() ) {
     wp_enqueue_style( 'iebase-style', get_stylesheet_uri() );
   } else {
@@ -407,9 +405,9 @@ function iebase_scripts() {
 
   wp_enqueue_style( 'font-style', get_template_directory_uri() . '/assets/css/fonts.css' );
 
-  wp_enqueue_script( 'iebase-vendors-script', get_template_directory_uri() . '/assets/js/vendors.min.js', array( 'jquery' ), '1.0.4', true );
+  wp_enqueue_script( 'iebase-vendors-script', get_template_directory_uri() . '/assets/js/vendors.min.js', array( 'jquery' ), wp_get_theme()->get( 'Version' ), true );
 
-  wp_enqueue_script( 'iebase-main-script', get_template_directory_uri() . '/assets/js/app.js', array( 'jquery' ), '1.0.4', true );
+  wp_enqueue_script( 'iebase-main-script', get_template_directory_uri() . '/assets/js/app.js', array( 'jquery' ), wp_get_theme()->get( 'Version' ), true );
 
   wp_localize_script( 'iebase-main-script', 'ie_loadmore_params', array(
 		'ajaxurl' => site_url() . '/wp-admin/admin-ajax.php', // WordPress AJAX
