@@ -534,7 +534,7 @@ require get_template_directory() . '/inc/class-ads.php';
 require get_template_directory() . '/inc/class-submit.php';
 
 /**
- * meta bos for  post
+ * metabox for ad post
  */
 require get_template_directory() . '/inc/class-metabox.php';
 
@@ -548,3 +548,8 @@ require get_template_directory() . '/inc/class-download-function.php';
  * support woocommerce
  */
 require get_template_directory() . '/inc/class-woocommerce.php';
+
+/**
+ * Integrate Lazyload
+ */
+require get_template_directory() . '/inc/class-images.php';
