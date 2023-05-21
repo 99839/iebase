@@ -4,7 +4,7 @@
   Theme Name:         Iebase
   Theme URI:          https://ietheme.com/themes/iebase-wordpress/
   Description:        Blog and Magazine Clean WordPress Theme by - <a href="http://ietheme.com">ieThemes</a>
-  Version:            1.0.4
+  Version:            1.1.0
   Author:             99839
   Author URI:         http://ietheme.com
   Text Domain:        iebase
@@ -4214,7 +4214,6 @@ p#bb-manual-demo.hidden {
 
 .comments-area__wrapper {
   position: relative;
-  display: none;
   overflow: hidden;
 }
 
