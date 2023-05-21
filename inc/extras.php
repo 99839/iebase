@@ -209,3 +209,43 @@ if (!function_exists('iebase_custom_script')) {
     }
     add_action('wp_footer', 'iebase_custom_script' ,1);
 }
+
+/**
+* Related Posts Function.
+*/
+if ( ! function_exists ( 'iebase_related_posts' ) ) {
+    function iebase_related_posts() {
+      global $post;
+      $tags = wp_get_post_tags( $post->ID );
+      $tag_arr = '';
+
+      if( $tags ) {
+        foreach( $tags as $tag ) {
+          $tag_arr .= $tag->slug . ',';
+        }
+
+        $args = array(
+          'tag'           => $tag_arr,
+          'numberposts'   => 3,
+          'post__not_in'  => array( $post->ID )
+        );
+
+        $related_posts = get_posts( $args );
+
+        if( $related_posts ) {
+          echo '<div class="ie-related">';
+            echo '<div class="e-grid related">';
+              echo '<div class="e-grid__col e-grid__col--full">';
+                echo '<h3 class="ie-related__title">' . esc_html__( 'You Might Be Interested In', 'iebase' ) . '</h3>';
+              echo '</div>';
+              foreach ( $related_posts as $post ) : setup_postdata( $post ); ?>
+                <?php get_template_part( 'template-parts/post-related' ); ?>
+              <?php endforeach;
+            echo '</div>';
+          echo '</div>';
+        }
+      }
+
+      wp_reset_postdata();
+    }
+ }
