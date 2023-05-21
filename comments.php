@@ -25,22 +25,18 @@ $comment_count = get_comments_number();
 
    <div id="show-comments-button" class="button--show-comments">
    <hr>
-		<?php
-		if ( have_comments() ) {
-			printf(
-				'<span class="ie-btn button__show-comments">%1$s (%2$s)</span>',
-				/* translators: 1: show comments title. 2: comment count number. */
-				esc_html_x( 'Show Comments', 'Show comments title.', 'iebase' ),
-				number_format_i18n( $comment_count )
-			);
-		} else {
-			printf(
-				'<span class="ie-btn button__show-comments">%1$s</span>',
-				/* translators: 1: show comments title. */
-				esc_html_x( 'Leave a Comment', 'Show comments title.', 'iebase' )
-			);
-		}
-		?>
+   <?php
+    $args = array(
+	    'class_submit'  => 'ie-btn',
+	    'title_reply' => '<span class="section-head"><span class="title">' . esc_html__('Write A Comment', 'iebase') . '</span></span>',
+	    'comment_field' =>
+                '<p class="comment-form-comment"><label for="comment">'.esc_attr__('Write your comment here… ', 'hakuna').'<span class="required">*</span></label><span class="focus-border"></span><textarea id="comment" name="comment" rows="3" minlength="20" data-v-message="'.esc_attr__('Please enter minimum 20 characters.', 'hakuna').'" required aria-required="true"></textarea></p>',
+		//'fields' => apply_filters( 'comment_form_default_fields', $fields ),
+		'format'            => 'xhtml'
+    );
+
+	  comment_form($args);
+	?>
 	</div>
 
 	<div class="comments-area__wrapper">
@@ -85,13 +81,6 @@ $comment_count = get_comments_number();
 
 	<?php endif; ?>
 
-  <?php
-    $args = array(
-	  'class_submit'  => 'ie-btn',
-	  'title_reply' => '<span class="section-head"><span class="title">' . esc_html__('Write A Comment', 'iebase') . '</span></span>',
-    );
 
-	  comment_form($args);
-	?>
   </div><!-- .comments-area__wrapper -->
 </div><!-- #comments -->
