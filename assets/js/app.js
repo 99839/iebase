@@ -207,127 +207,18 @@
   });
 
   // =====================
-  // Ajax Comment
+  // Validation Comment Form
   // =====================
-
-  jQuery.extend(jQuery.fn, {
-      /*
-       * check if field value lenth more than 3 symbols ( for name and comment )
-       */
-      validate: function() {
-          if (jQuery(this).val().length < 5) {
-              jQuery(this).addClass('error');
-              return false
-          } else {
-              jQuery(this).removeClass('error');
-              return true
-          }
-      },
-      /*
-       * check if email is correct
-       * add to your CSS the styles of .error field, for example border-color:red;
-       */
-      validateEmail: function() {
-          var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/,
-              emailToValidate = jQuery(this).val();
-          if (!emailReg.test(emailToValidate) || emailToValidate == "") {
-              jQuery(this).addClass('error');
-              return false
-          } else {
-              jQuery(this).removeClass('error');
-              return true
-          }
-      },
-
+  var forms = document.querySelectorAll(".comment-form");
+  for (var i = 0; i < forms.length; i++) {
+    forms[i].setAttribute("novalidate", true);
+  }
+  $(function () {
+    let validator = $("form.comment-form").jbvalidator({
+      errorMessage: true,
+    });
   });
 
-  jQuery(function($) {
-
-      /*
-       * On comment form submit
-       */
-      $('#commentform').submit(function() {
-
-          // define some vars
-          var button = $('#submit'), // submit button
-              respond = $('#respond'), // comment form container
-              commentlist = $('.comment-list'), // comment list container
-              cancelreplylink = $('#cancel-comment-reply-link');
-
-          // if user is logged in, do not validate author and email fields
-          if ($('#author').length)
-              $('#author').validate();
-
-          if ($('#email').length)
-              $('#email').validateEmail();
-
-          // validate comment in any case
-          $('#comment').validate();
-
-          // if comment form isn't in process, submit it
-          if (!button.hasClass('loadingform') && !$('#author').hasClass('error') && !$('#email').hasClass('error') && !$('#comment').hasClass('error')) {
-
-              // ajax request
-              $.ajax({
-                  type: 'POST',
-                  url: misha_ajax_comment_params.ajaxurl, // admin-ajax.php URL
-                  data: $(this).serialize() + '&action=ajaxcomments', // send form data + action parameter
-                  beforeSend: function(xhr) {
-                      // what to do just after the form has been submitted
-                      button.addClass('loadingform').val('Loading...');
-                  },
-                  error: function(request, status, error) {
-                      if (status == 500) {
-                          alert('Error while adding comment');
-                      } else if (status == 'timeout') {
-                          alert('Error: Server doesn\'t respond.');
-                      } else {
-                          // process WordPress errors
-                          var wpErrorHtml = request.responseText.split("<p>"),
-                              wpErrorStr = wpErrorHtml[1].split("</p>");
-
-                          alert(wpErrorStr[0]);
-                      }
-                  },
-                  success: function(addedCommentHTML) {
-
-                      // if this post already has comments
-                      if (commentlist.length > 0) {
-
-                          // if in reply to another comment
-                          if (respond.parent().hasClass('comment')) {
-
-                              // if the other replies exist
-                              if (respond.parent().children('.children').length) {
-                                  respond.parent().children('.children').append(addedCommentHTML);
-                              } else {
-                                  // if no replies, add <ol class="children">
-                                  addedCommentHTML = '<ol class="children">' + addedCommentHTML + '</ol>';
-                                  respond.parent().append(addedCommentHTML);
-                              }
-                              // close respond form
-                              cancelreplylink.trigger("click");
-                          } else {
-                              // simple comment
-                              commentlist.append(addedCommentHTML);
-                          }
-                      } else {
-                          // if no comments yet
-                          addedCommentHTML = '<ol class="comment-list">' + addedCommentHTML + '</ol>';
-                          respond.before($(addedCommentHTML));
-                      }
-                      // clear textarea field
-                      $('#comment').val('');
-                  },
-                  complete: function() {
-                      // what to do after a comment has been added
-                      button.removeClass('loadingform').val('Post Comment');
-                  }
-              });
-          }
-          return false;
-      });
-  });
 
   // =====================
   // Sticky sidebar
@@ -382,99 +273,6 @@
 
   Zoom("#lightbox", {
       background: "auto",
-  });
-
-  // =====================
-  //  commentsToggle
-  // =====================
-
-  var body, commentsToggle, commentsArea, resizeTimer;
-
-  commentsToggle = $('#show-comments-button');
-  commentsArea = $('#comments .comments-area__wrapper');
-
-  // Enable commentsToggle.
-  (function() {
-      // Return early if commentsToggle is missing.
-      if (!commentsToggle.length) {
-          return;
-      }
-
-      // Add an initial values for the attribute.
-      commentsToggle.add(commentsArea).attr('aria-expanded', 'false');
-
-      commentsToggle.on('click', function() {
-          $(this).add(commentsArea).toggleClass('toggled-on');
-
-          $(this).add(commentsArea).attr('aria-expanded', $(this).add(commentsArea).hasClass('toggled-on'));
-      });
-  })();
-
-  // Shows comments area by certain anchors.
-  function showCommentsByAnchor() {
-      var anchor = window.location.hash.replace("#", "");
-
-      if (!anchor.length) {
-          return;
-      }
-
-      if (anchor == "comments" || anchor == "respond" || anchor.includes("comment-")) {
-          $('#comments .comments-area__wrapper').slideDown(0);
-          $('#show-comments-button').slideUp(0);
-      }
-  }
-
-  // Get the browser's scrollbar size for alignfull elements.
-  function scrollbarWidth() {
-      var $outer = $('<div>').css({
-              visibility: 'hidden',
-              width: 100,
-              overflow: 'scroll'
-          }).appendTo('body'),
-          widthWithScroll = $('<div>').css({
-              width: '100%'
-          }).appendTo($outer).outerWidth();
-      $outer.remove();
-      var scrollbarWidth = 100 - widthWithScroll;
-
-      document.documentElement.style.setProperty('--scrollbar-width', scrollbarWidth + 'px');
-  }
-
-  // Fire on document ready.
-  $(document).ready(function() {
-      body = $(document.body);
-
-      // Show comments.
-      $('#show-comments-button').on('click', function() {
-          $('#show-comments-button').slideUp(100);
-          $('#comments .comments-area__wrapper').slideDown(200, function() {
-              $.scrollTo($('#comments .comments-area__wrapper'), {
-                  duration: 600,
-                  offset: {
-                      'top': -48
-                  }
-              });
-          });
-      });
-
-      // Show comments by anchor.
-      showCommentsByAnchor();
-
-      // Scroll to comments.
-      $('.comments-link > a').on('click', function() {
-          $('#comments .comments-area__wrapper').slideDown(0);
-          $('#show-comments-button').slideUp(0);
-      });
-
-      // Get the browser's scrollbar size for alignfull elements.
-      scrollbarWidth();
-
-      $(window).on('resize', function() {
-          clearTimeout(resizeTimer);
-          resizeTimer = setTimeout(function() {
-              scrollbarWidth();
-          }, 300);
-      });
   });
 
 })(jQuery);
