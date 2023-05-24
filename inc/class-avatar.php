@@ -42,7 +42,10 @@ class Iebase_Letter_Avatar {
       */
      private function __construct(){
 
-        add_filter( 'get_avatar', array($this, 'replace_gravatars_with_svgs'), 10, 5 );
+        global $pagenow;
+        if(!is_admin() || $pagenow != 'options-discussion.php') {
+            add_filter('get_avatar', array($this, 'replace_gravatars_with_svgs'), 999999, 5);
+        }
         add_action( 'admin_head', array($this, 'hide_avatar_admin_bar') );
         add_action( 'admin_bar_menu', array($this, 'remove_my_account'), 999 );
 
