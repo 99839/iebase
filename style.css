@@ -2094,18 +2094,16 @@ body {
   border-radius: 3px 3px 0 0;
 }
 
-@media (min-width: 40em) {
-  .ie-post-card__image {
-    transition: opacity 500ms ease-in-out;
-  }
+.ie-post-card__image {
+  transition: opacity 500ms ease-in-out;
+}
 
-  .ie-post-card__image.js-fadein {
-    opacity: 0;
-  }
+.js-fadein {
+  opacity: 0;
+}
 
-  .ie-post-card__image.is-inview {
-    opacity: 1;
-  }
+.is-inview {
+  opacity: 1;
 }
 
 .ie-post-card__image:before {
